@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/Gallery.css';
+import '../../css/User/Gallery.css';
 
 
 function Gallery() {

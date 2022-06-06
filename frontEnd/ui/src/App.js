@@ -4,11 +4,11 @@ import './App.css';
 
 
 // routing file path
-const Home = lazy(() => import('./components/Home'))
-const About = lazy(() => import('./components/About'))
-const Gallery = lazy(() => import('./components/Gallery'))
-const Contact = lazy(() => import('./components/Contact'))
-const Quote = lazy(() => import('./components/Quote'))
+const Home = lazy(() => import('./components/User/Home'))
+const About = lazy(() => import('./components/User/About'))
+const Gallery = lazy(() => import('./components/User/Gallery'))
+const Contact = lazy(() => import('./components/User/Contact'))
+const Quote = lazy(() => import('./components/User/Quote'))
 
 function App() {
   return (
