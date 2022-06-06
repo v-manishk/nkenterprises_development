@@ -9,6 +9,7 @@ const About = lazy(() => import('./components/User/About'))
 const Gallery = lazy(() => import('./components/User/Gallery'))
 const Contact = lazy(() => import('./components/User/Contact'))
 const Quote = lazy(() => import('./components/User/Quote'))
+const Profile = lazy(() => import('./components/Admin/Profile'))
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/Contact" element={<Contact />} />
             <Route path="/Quote" element={<Quote />} />
             <Route path="/About" element={<About />} />
+            <Route path="/Admin/Profile" element={<Profile />} />
           </Routes>
         </Suspense>
       </Router>
