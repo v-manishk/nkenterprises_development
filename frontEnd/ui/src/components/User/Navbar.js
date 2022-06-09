@@ -6,31 +6,31 @@ import logo from '../../assets/User/logo.png'
 function Navbar() {
   return (
     <div>
-        <div class="container-fluid" style={{backgroundColor: "#000040"}}>
+        <div class="container-fluid bg-dark" style={{borderBottom: "3px solid #000040"}}>
             <div class="row py-2 px-lg-5">
                 <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
                     <div class="d-inline-flex align-items-center text-white">
-                        <small><i class="fa fa-phone-alt mr-2"></i>+7498183940</small>
+                        <small><i class="fa fa-phone-alt mr-2 i1"></i>+91 7498183940</small>
                         <small class="px-3">|</small>
-                        <small><i class="fa fa-envelope mr-2"></i>vmanish1313@gmail.com</small>
+                        <small><i class="fa fa-envelope mr-2 i1"></i>nkenterprises.contact@gmail.com</small>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
                         <a class="text-white px-2" href="">
-                            <i class="fab fa-facebook-f"></i>
+                            <i class="fab fa-facebook-f i1"></i>
                         </a>
                         <a class="text-white px-2" href="">
-                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-twitter i1"></i>
                         </a>
                         <a class="text-white px-2" href="">
-                            <i class="fab fa-linkedin-in"></i>
+                            <i class="fab fa-linkedin-in i1"></i>
                         </a>
-                        <a class="text-white px-2" href="">
-                            <i class="fab fa-instagram"></i>
+                        <a class="text-white px-2" href="https://www.instagram.com/n_k_enterprises/?hl=en">
+                            <i class="fab fa-instagram i1"></i>
                         </a>
                         <a class="text-white pl-2" href="">
-                            <i class="fab fa-youtube"></i>
+                            <i class="fab fa-youtube i1"></i>
                         </a>
                     </div>
                 </div>

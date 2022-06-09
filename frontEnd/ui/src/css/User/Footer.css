@@ -3,5 +3,16 @@ a {
 }
 
 .text1 {
-    color: red !important;
+    font-size: 20px;
+    color: #FF4800 !important;
+    font-family: Ubuntu;
   }
+
+
+i {
+    color: white;
+}
+.btn1 {
+    background-color: #00008d;
+    border-color: #00008d;
+}
