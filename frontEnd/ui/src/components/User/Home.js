@@ -1,11 +1,15 @@
 import React from 'react';
 import '../../css/User/Home.css';
+import Navbar from './Navbar';
+import Footer from './Footer';
 
 
 function Home() {
   return (
     <div>
-        <h1> I m Home Page </h1>
+        < Navbar/>
+        <div> helloooo  </div>
+        < Footer/>
     </div>
   );
 }
