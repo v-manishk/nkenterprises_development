@@ -11,7 +11,7 @@ function Footer() {
                         <div class="col-md-6 mb-5">
                             <h3 class="text-primary mb-4 text1">Get In Touch</h3>
                             <p><i class="fa fa-map-marker-alt mr-2"></i>Gokuldham, Goregaon East, Mumbai</p>
-                            <p><i class="fa fa-phone-alt mr-2"></i>+91 7498183940</p>
+                            <p><i class="fa fa-phone-alt mr-2"></i>+91 74981 83940</p>
                             <p><i class="fa fa-envelope mr-2"></i>nkenterprises.contact@gmail.com</p>
                             <div class="d-flex justify-content-start mt-4">
                                 <a class="btn btn-outline-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
