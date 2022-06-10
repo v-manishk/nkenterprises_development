@@ -4,8 +4,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 
 .contact .info {
-    border-top: 3px solid #47b2e4;
-    border-bottom: 3px solid #47b2e4;
+    border-top: 3px solid #000040;
+    border-bottom: 3px solid #000040;
     padding: 30px;
     background: #fff;
     width: 100%;
@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
   }
   .contact .info i {
     font-size: 20px;
-    color: #47b2e4;
+    color: #000040;
     float: left;
     width: 44px;
     height: 44px;
@@ -62,13 +62,13 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
   }
   .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-    background: #47b2e4;
+    background: #000040;
     color: #fff;
   }
   .contact .php-email-form {
     width: 100%;
-    border-top: 3px solid #47b2e4;
-    border-bottom: 3px solid #47b2e4;
+    border-top: 3px solid #000040;
+    border-bottom: 3px solid #000040;
     padding: 30px;
     background: #fff;
     box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 4px;
   }
   .contact .php-email-form input:focus, .contact .php-email-form textarea:focus {
-    border-color: #47b2e4;
+    border-color: #000040;
   }
   .contact .php-email-form input {
     height: 44px;
@@ -142,7 +142,7 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 12px;
   }
   .contact .php-email-form button[type=submit] {
-    background: #47b2e4;
+    background: #000040;
     border: 0;
     padding: 12px 34px;
     color: #fff;
@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
   }
   .contact .php-email-form button[type=submit]:hover {
-    background: #209dd8;
+    background: #00008d;
   }
   @-webkit-keyframes animate-loading {
     0% {
@@ -199,7 +199,7 @@ h1, h2, h3, h4, h5, h6 {
     display: block;
     width: 40px;
     height: 3px;
-    background: #47b2e4;
+    background: #000040;
     bottom: 0;
     left: calc(50% - 20px);
   }
