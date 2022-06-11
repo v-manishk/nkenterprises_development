@@ -23,11 +23,11 @@ function Footer() {
                         <div class="col-md-6 mb-5">
                             <h3 class="text-primary mb-4 text1">Quick Links</h3>
                             <div class="d-flex flex-column justify-content-start">
-                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Home</a>
-                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>About Us</a>
+                                <a class="text-white mb-2" href="/"><i class="fa fa-angle-right mr-2"></i>Home</a>
+                                <a class="text-white mb-2" href="/about"><i class="fa fa-angle-right mr-2"></i>About Us</a>
                                 <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Our Services</a>
-                                <a class="text-white mb-2" href="#"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
-                                <a class="text-white" href="#"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
+                                <a class="text-white mb-2" href="/gallery"><i class="fa fa-angle-right mr-2"></i>Gallery</a>
+                                <a class="text-white" href="/contact"><i class="fa fa-angle-right mr-2"></i>Contact Us</a>
                             </div>
                         </div>
                     </div>

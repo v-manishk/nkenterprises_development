@@ -17,6 +17,9 @@ function Navbar() {
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-2" href="/login">
+                            Login
+                        </a>
                         <a class="text-white px-2" href="">
                             <i class="fab fa-facebook-f i1"></i>
                         </a>
@@ -48,9 +51,9 @@ function Navbar() {
                 <div class="collapse navbar-collapse justify-content-between px-lg-3" id="navbarCollapse">
                     <div class="navbar-nav m-auto py-0">
                         <a href="/" class="nav-item nav-link active">Home</a>
-                        <a href="/About" class="nav-item nav-link">About</a>
+                        <a href="/about" class="nav-item nav-link">About</a>
                         <a href="/" class="nav-item nav-link">Service</a>
-                        <a href="/Gallery" class="nav-item nav-link">Gallery</a>
+                        <a href="/gallery" class="nav-item nav-link">Gallery</a>
                         {/* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu rounded-0 m-0">
@@ -58,7 +61,7 @@ function Navbar() {
                                 <a href="single.html" class="dropdown-item">Blog Detail</a>
                             </div>
                         </div> */}
-                        <a href="/Contact" class="nav-item nav-link">Contact</a>
+                        <a href="/contact" class="nav-item nav-link">Contact</a>
                     </div>
                     <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block" style={{color: "white", border: "none"}}>Get A Quote</a>
                 </div>
