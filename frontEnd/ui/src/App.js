@@ -19,12 +19,12 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Gallery" element={<Gallery />} />
-            <Route path="/Contact" element={<Contact />} />
-            <Route path="/Quote" element={<Quote />} />
-            <Route path="/About" element={<About />} />
-            <Route path="/Admin/Profile" element={<Profile />} />
+            <Route path="/home" element={<Home />} />
+            <Route path="/gallery" element={<Gallery />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/quote" element={<Quote />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/admin/profile" element={<Profile />} />
           </Routes>
         </Suspense>
       </Router>
