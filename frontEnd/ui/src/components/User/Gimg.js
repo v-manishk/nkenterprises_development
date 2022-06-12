@@ -2,27 +2,27 @@ const Gallery_Image = [
     {
         id: 1,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "false_ceiling"
     },
     {
         id: 2,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "civil"
     },
     {
         id: 3,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "false_ceiling"
     },
     {
         id: 4,
         image: "Images/img1.jpg",
-        category: "plumbing"
+        category: "electrical"
     },
     {
         id: 5,
         image: "Images/img1.jpg",
-        category: "plumbing"
+        category: "laboratory"
     },
     {
         id: 6,
@@ -37,22 +37,22 @@ const Gallery_Image = [
     {
         id: 8,
         image: "Images/img1.jpg",
-        category: "lab"
+        category: "painting"
     },
     {
         id: 10,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "sliding_window"
     },
     {
         id: 11,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "furniture"
     },
     {
         id: 12,
         image: "Images/img1.jpg",
-        category: "carpenter"
+        category: "pop"
     }
 ];
 
