@@ -13,7 +13,7 @@ function GType() {
 
     // sets images from Gimg by filtering it api
     const[items, setItems] = useState(Gallery_Image.filter((curElem) => {
-        if (location.state.type === "Gallery"){
+        if (location.state.type === "Gallery" || "" ){
         return curElem
         }
         return curElem.category === location.state.type;
