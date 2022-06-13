@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
 import '../../css/User/Gallery.css';
 import Navbar from './Navbar';
-import Footer from './Footer'
+import Footer from './Footer';
 import Gallery_Image from './Gimg';
 
 //stores the type of gallery image
