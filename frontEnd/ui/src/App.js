@@ -10,6 +10,8 @@ const Contact = lazy(() => import('./components/User/Contact'))
 const Quote = lazy(() => import('./components/User/Quote'))
 const Profile = lazy(() => import('./components/Admin/Profile'))
 const Gallery_Type = lazy(() => import('./components/User/GType'))
+const Services = lazy(() => import('./components/User/Services'))
+const Civil = lazy(() => import('./components/User/services/civil'))
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
             <Route path="/quote" element={<Quote />} />
             <Route path="/about" element={<About />} />
             <Route path="/gallery_type" element={<Gallery_Type />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/civil" element={<Civil />} />
             <Route path="/admin/profile" element={<Profile />} />
           </Routes>
         </Suspense>
