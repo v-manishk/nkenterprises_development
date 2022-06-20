@@ -147,7 +147,7 @@ p,
 
   }
 
-.btn-primary:hover {
+.btn-primary :hover {
     color: #fff;
     background-color: #00008d;
     border-color: #00008d;
