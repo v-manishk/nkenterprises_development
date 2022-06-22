@@ -11,7 +11,7 @@ function Home() {
       <div class="context">
         <h1>NK ENTRPRISES</h1>
         <p>We create space for better living</p>
-        <a href="#" class="btn-learn-more" style={{color: "white",  border: "2px solid white", padding: "12px 32px", borderRadius: "50px"}}>Get a Quotee</a>
+        <a href="#" class="btn-learn-more">Get a Quotee</a>
       </div>
 
 
