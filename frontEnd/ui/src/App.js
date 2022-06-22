@@ -12,6 +12,8 @@ const Profile = lazy(() => import('./components/Admin/Profile'))
 const Gallery_Type = lazy(() => import('./components/User/GType'))
 const Services = lazy(() => import('./components/User/Services'))
 const Civil = lazy(() => import('./components/User/services/civil'))
+const Projects = lazy(() => import('./components/User/Projects'))
+const Project_details = lazy(() => import('./components/User/Project_detail'))
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
             <Route path="/gallery_type" element={<Gallery_Type />} />
             <Route path="/services" element={<Services />} />
             <Route path="/civil" element={<Civil />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/project_details" element={<Project_details />} />
             <Route path="/admin/profile" element={<Profile />} />
           </Routes>
         </Suspense>

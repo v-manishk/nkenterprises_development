@@ -1,21 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-
-body{
-    font-family: 'Exo', sans-serif;
-}
-
-
 .context {
     width: 100%;
     position: absolute;
-    top:50vh;
+    top:40vh;
     
 }
 
 .context h1{
     text-align: left;
     margin-left: 13%;
+    font-family: Ubuntu;
+    font-weight: 600;
     color: #fff;
     font-size: 50px;
 }
@@ -24,7 +20,10 @@ body{
     text-align: left;
     margin-left: 13%;
     color: #fff;
-    font-size: 30px;
+    font-size: 20px;
+    font-family: Ubuntu;
+    font-weight: 600;
+    margin-bottom: 30px;
 }
 
 .context a{
@@ -34,6 +33,11 @@ body{
 }
 
 
+@media (max-width: 600px) {
+  .context h1 {
+    font-size: 35px;
+  }
+}
 
 .area{
     background: #000040;  
