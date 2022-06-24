@@ -53,7 +53,7 @@ function Navbar() {
                         <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="/about" class="nav-item nav-link">About</a>
                         <a href="/services" class="nav-item nav-link">Service</a>
-                        <a href="/projects" class="nav-item nav-link">Projects</a>
+                        <a href="/project_category" class="nav-item nav-link">Projects</a>
                         <a href="/gallery" class="nav-item nav-link">Gallery</a>
                         {/* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
