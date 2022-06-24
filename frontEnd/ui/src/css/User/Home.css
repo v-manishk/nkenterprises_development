@@ -40,7 +40,6 @@
     font-size: 35px;
   }
   .context {
-    margin: 0 auto -30px;
     transition: transform 0.5s;
     transform: translate(0px, 160px);
   }

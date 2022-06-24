@@ -87,7 +87,7 @@
 
 .project-details .portfolio-info .btn-visit {
   padding: 8px 40px;
-  background: var(--color-primary);
+  background: #000040;
   color: #fff;
   border-radius: 50px;
   transition: 0.3s;

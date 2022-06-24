@@ -15,16 +15,16 @@ function Project_details() {
         <section id="project-details" class="project-details">
             
         <div class="container" data-aos="fade-up" data-aos-delay="100">
-            <Swiper navigation={true} modules={[Navigation]} className="mySwiper" style={{marginTop: "2%"}}>
+            {/* <Swiper navigation={true} modules={[Navigation]} className="mySwiper" style={{marginTop: "2%"}}>
                 <SwiperSlide>
-                <img src="Images/img2.jpg" alt="" style={{height: "700px"}}></img></SwiperSlide>
+                <img src="Images/img2.jpg" alt="" style={{height: "600px", width: "700px"}}></img></SwiperSlide>
                 <SwiperSlide>
-                <img src="Images/img2.jpg" alt="" style={{height: "700px"}}></img>
+                <img src="Images/img2.jpg" alt="" style={{height: "600px", width: "700px"}}></img>
                 </SwiperSlide>
                 <SwiperSlide>
-                <img src="Images/img2.jpg" alt="" style={{height: "700px"}}></img>
+                <img src="Images/img2.jpg" alt="" style={{height: "600px", width: "700px"}}></img>
                 </SwiperSlide>
-            </Swiper>
+            </Swiper> */}
 
             <div class="row justify-content-between gy-4 mt-4">
 
@@ -61,7 +61,7 @@ function Project_details() {
                 </div>
             </div>
 
-            <div class="col-lg-3">
+            <div class="col-lg-4" style={{paddingLeft: "50px"}}>
                 <div class="portfolio-info">
                 <h3>Project information</h3>
                 <ul>
@@ -72,6 +72,16 @@ function Project_details() {
                     <li><a href="#" class="btn-visit align-self-start">Visit Website</a></li>
                 </ul>
                 </div>
+                <Swiper navigation={true} modules={[Navigation]} className="mySwiper" style={{marginTop: "2%"}}>
+                    <SwiperSlide>
+                    <img src="Images/img2.jpg" alt="" style={{height: "300px"}}></img></SwiperSlide>
+                    <SwiperSlide>
+                    <img src="Images/img2.jpg" alt="" style={{height: "300px"}}></img>
+                    </SwiperSlide>
+                    <SwiperSlide>
+                    <img src="Images/img2.jpg" alt="" style={{height: "300px"}}></img>
+                    </SwiperSlide>
+                </Swiper>
             </div>
 
             </div>
