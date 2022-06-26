@@ -10,8 +10,8 @@ function Home() {
       < Navbar/>
       <div class="context">
         <h1>NK ENTRPRISES</h1>
-        <p>We create space for better living</p>
-        <a href="#" class="btn-learn-more">Get a Quotee</a>
+        <p>We modify space for better living</p>
+        <a href="#" class="btn-learn-more">Get a Quote</a>
       </div>
 
 

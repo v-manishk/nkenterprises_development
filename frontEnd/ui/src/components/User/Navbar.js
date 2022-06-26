@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../css/User/Navbar.css';
 import logo from '../../assets/User/logo.png'
 
 
 function Navbar() {
+
   return (
     <div>
         <div class="container-fluid bg-dark" style={{borderBottom: "3px solid #000040"}}>
