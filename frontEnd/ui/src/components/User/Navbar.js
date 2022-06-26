@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../../css/User/Navbar.css';
 import logo from '../../assets/User/logo.png'
 
 
 function Navbar() {
+
   return (
     <div>
         <div class="container-fluid bg-dark" style={{borderBottom: "3px solid #000040"}}>
@@ -52,7 +53,7 @@ function Navbar() {
                     <div class="navbar-nav m-auto py-0">
                         <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="/about" class="nav-item nav-link">About</a>
-                        <a href="/" class="nav-item nav-link">Service</a>
+                        <a href="/service" class="nav-item nav-link">Service</a>
                         <a href="/gallery" class="nav-item nav-link">Gallery</a>
                         {/* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
