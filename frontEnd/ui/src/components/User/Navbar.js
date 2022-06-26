@@ -53,7 +53,8 @@ function Navbar() {
                     <div class="navbar-nav m-auto py-0">
                         <a href="/" class="nav-item nav-link active">Home</a>
                         <a href="/about" class="nav-item nav-link">About</a>
-                        <a href="/service" class="nav-item nav-link">Service</a>
+                        <a href="/services" class="nav-item nav-link">Service</a>
+                        <a href="/project_category" class="nav-item nav-link">Projects</a>
                         <a href="/gallery" class="nav-item nav-link">Gallery</a>
                         {/* <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
