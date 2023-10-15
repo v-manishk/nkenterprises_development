@@ -36,7 +36,7 @@ function App() {
             <Route path="/projects" element={<Projects />} />
             <Route path="/project_details" element={<Project_details />} />
             <Route path="/project_category" element={<Project_category />} />
-            <Route path="/admin/profile" element={<Profile />} />
+            <Route path="/admin" element={<Profile />} />
           </Routes>
         </Suspense>
       </Router>
