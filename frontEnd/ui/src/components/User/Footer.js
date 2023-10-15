@@ -71,7 +71,9 @@ function Footer() {
                 </div>
             </div>
         </div>
+        <script type="text/javascript" src="/static/js/bundle.js"></script>
     </div>
+    
   );
 }
 
