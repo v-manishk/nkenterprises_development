@@ -18,6 +18,9 @@ function Navbar() {
                 </div>
                 <div class="col-lg-6 text-center text-lg-right">
                     <div class="d-inline-flex align-items-center">
+                        <a class="text-white px-2" href="/admin">
+                            Admin
+                        </a>
                         <a class="text-white px-2" href="/login">
                             Login
                         </a>
