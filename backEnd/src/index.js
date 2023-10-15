@@ -1,5 +1,6 @@
 const express = require("express");
 const bodyParser = require("body-parser");
+const path = require("path");
 const app = new express();
 
 app.use(express.static(path.resolve(__dirname, '../client/build')));
