@@ -1,16 +1,19 @@
 const express = require("express");
 const bodyParser = require("body-parser");
 const path = require("path");
-const app = new express();
 
-app.use(express.static(path.resolve(__dirname, '../client/build')));
+// app.use(express.static(path.resolve(__dirname, '../client/build')));
+
+const PORT = process.env.PORT || 3001;
+
+const app = express();
+
 app.use(bodyParser.json());
 
-
-app.get("/api", (req, res) => {
-    res.json({"status": 200, "created": "app created"})
+app.get('/api', async (req, res) => {
+    await res.status(200).json({"status": 200, "created": "app created"});
 })
 
-app.listen(5000, () => {
+app.listen(PORT, () => {
     console.log("Backend created");
 });

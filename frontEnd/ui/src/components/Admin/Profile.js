@@ -9,6 +9,7 @@ function Profile() {
       try {
         const response = await fetch("/api");
         const data = await response.json();
+        console.log(data);
         setBackendData(data);
       } catch (error) {
         console.log('Error fetching data:', error);
