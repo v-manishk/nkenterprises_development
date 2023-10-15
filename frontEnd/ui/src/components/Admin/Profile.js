@@ -11,7 +11,8 @@ function Profile() {
         const data = await response.json();
         setBackendData(data);
       } catch (error) {
-        console.error('Error fetching data:', error);
+        console.log('Error fetching data:', error);
+        setBackendData({"error": error});
       }
     };
 
